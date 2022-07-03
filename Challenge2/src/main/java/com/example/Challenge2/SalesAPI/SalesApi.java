@@ -30,7 +30,7 @@ import net.minidev.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-// SalesApi is a rest controller to handle requests related to client
+// SalesApi is a rest controller to handle requests related to sales and transactions
 
 @RestController
 public class SalesApi {
