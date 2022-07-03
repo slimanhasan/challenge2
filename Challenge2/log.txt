@@ -1,0 +1,30 @@
+2022-07-03 11:57:27.340  INFO 14080 --- [main] c.e.Challenge2.Challenge2Application     : Starting Challenge2Application using Java 15.0.2 on DESKTOP-EJGK655 with PID 14080 (F:\Challenge2\target\classes started by HP in F:\Challenge2)
+2022-07-03 11:57:27.343  INFO 14080 --- [main] c.e.Challenge2.Challenge2Application     : No active profile set, falling back to 1 default profile: "default"
+2022-07-03 11:57:28.092  INFO 14080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-03 11:57:28.158  INFO 14080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2022-07-03 11:57:28.946  INFO 14080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-03 11:57:28.960  INFO 14080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-03 11:57:28.961  INFO 14080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-03 11:57:29.168  INFO 14080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-03 11:57:29.168  INFO 14080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1780 ms
+2022-07-03 11:57:29.352  INFO 14080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-03 11:57:29.493  INFO 14080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-03 11:57:29.899  INFO 14080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-03 11:57:30.165  INFO 14080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-03 11:57:31.058  INFO 14080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-03 11:57:31.100  INFO 14080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-03 11:57:41.910  INFO 14080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-03 11:57:41.921  INFO 14080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-03 11:57:42.495  WARN 14080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 11:57:42.868  INFO 14080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-03 11:57:42.879  INFO 14080 --- [main] c.e.Challenge2.Challenge2Application     : Started Challenge2Application in 16.002 seconds (JVM running for 16.526)
+2022-07-03 11:58:39.471  INFO 14080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-03 11:58:39.472  INFO 14080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-03 11:58:39.477  INFO 14080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-07-03 11:59:29.228  WARN 14080 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------589132529830360409105459;charset=UTF-8' not supported]
+2022-07-03 12:00:15.406  WARN 14080 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------890855946689044293356969;charset=UTF-8' not supported]
+2022-07-03 12:01:16.901 ERROR 14080 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+2022-07-03 12:02:20.299  INFO 14080 --- [http-nio-8080-exec-1] c.example.Challenge2.SalesAPI.SalesApi   : new sale created with the following details:
+id = 5 , client id = 2 , seller name = company 1 , price = 1000.0
+2022-07-03 12:03:29.095  INFO 14080 --- [http-nio-8080-exec-5] c.example.Challenge2.SalesAPI.SalesApi   : sale with id = 5 has been updated
+
